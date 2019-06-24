@@ -1,0 +1,30 @@
+{
+  "name": "mcss",
+  "version": "1.0.0",
+  "description": "mobile css framework",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Jinxin Hu <hjxenjoy@gmail.com> (https://hujin.xin)",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "clean-css-cli": "^4.3.0",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^2.4.1",
+    "less": "^3.9.0",
+    "lint-staged": "^8.2.1",
+    "node-sass": "^4.12.0",
+    "postcss-cli": "^6.1.2",
+    "postcss-preset-env": "^6.6.0",
+    "rimraf": "^2.6.3",
+    "stylefmt": "^6.0.3",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}
